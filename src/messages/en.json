@@ -1,0 +1,185 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "About",
+    "gallery": "Gallery",
+    "reservations": "Reservations",
+    "contact": "Contact",
+    "bookTable": "Book a Table",
+    "orderWolt": "Order on Wolt"
+  },
+  "hero": {
+    "tagline": "Bariukas",
+    "veganFriendly": "Vegetarian / vegan friendly 🌱",
+    "petFriendly": "Pet friendly 🐶",
+    "bookTable": "Book a Table",
+    "orderWolt": "Order on Wolt",
+    "seeMenu": "See Menu",
+    "scroll": "Scroll down"
+  },
+  "quickInfo": {
+    "hours": "Opening Hours",
+    "address": "Address",
+    "phone": "Phone",
+    "getDirections": "Get Directions"
+  },
+  "status": {
+    "openNow": "Open Now",
+    "opensAt": "Opens at {time}",
+    "closed": "Closed",
+    "opensOn": "Opens {day} at {time}",
+    "popularTimes": "Popular Times",
+    "reportedBy": "Reported by {count}+ people on Google",
+    "popularMentions": "Popular mentions",
+    "viewAllGoogle": "All reviews on Google Maps"
+  },
+  "days": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "cocktails": {
+    "title": "Menu highlights",
+    "subtitle": "Google Maps and guest favourite dishes",
+    "viewAll": "Full menu"
+  },
+  "specials": {
+    "title": "New on the menu",
+    "subtitle": "Latest offers from the Wolt menu",
+    "badge": "New"
+  },
+  "gallery": {
+    "title": "Rooftop & Atmosphere",
+    "subtitle": "Sunsets, cocktails, and good vibes",
+    "viewAll": "Full Gallery"
+  },
+  "testimonials": {
+    "title": "What Guests Say",
+    "subtitle": "Palanga's favorite rooftop bar"
+  },
+  "instagram": {
+    "title": "Follow Us on Instagram",
+    "subtitle": "@kefyrousai",
+    "follow": "Follow"
+  },
+  "newsletter": {
+    "title": "Summer Events",
+    "subtitle": "Get updates on DJ nights, tastings, and special offers",
+    "placeholder": "Your email",
+    "submit": "Subscribe",
+    "success": "Thanks! We'll be in touch soon.",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "description": "Food and drinks, takeaway, daily lunch specials. Rooftop, outdoor seating, great cocktails.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "order": "Order",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy"
+  },
+  "menu": {
+    "title": "Menu",
+    "subtitle": "Food and drinks, takeaway, daily lunch specials",
+    "downloadPdf": "Download PDF Menu",
+    "tabs": {
+      "food": "Food",
+      "cocktails": "Cocktails",
+      "wineBeer": "Wine & Beer",
+      "nonAlcoholic": "Non-alcoholic",
+      "takeaway": "Takeaway"
+    },
+    "vegan": "Vegan",
+    "new": "New",
+    "allergens": "Allergens",
+    "bookCta": "Book a Table",
+    "woltSource": "Menu provided by Wolt",
+    "orderWolt": "Order on Wolt",
+    "combos": "Combos"
+  },
+  "about": {
+    "title": "About Kefyro ūsai",
+    "subtitle": "Palanga's rooftop where the sea meets cocktails",
+    "storyTitle": "Our Story",
+    "story1": "Kefyro ūsai is a stylish rooftop bar & café in the heart of Palanga. Enjoy handcrafted cocktails, fresh food, and unbeatable Baltic sunset views.",
+    "story2": "Our team creates a lively, summery atmosphere — from relaxed dinners to energetic Friday nights. We offer vegan options, daily lunch specials, and takeaway via Wolt and Bolt.",
+    "rooftopTitle": "The Rooftop",
+    "rooftopDesc": "Open-air terrace with sea views — perfect for summer evenings, friends' gatherings, and romantic occasions.",
+    "teamTitle": "Team Vibe",
+    "teamDesc": "A friendly, creative crew who love cocktails, great food, and good vibes.",
+    "features": {
+      "rooftop": "Rooftop",
+      "outdoor": "Outdoor Seating",
+      "cocktails": "Great Cocktails",
+      "vegan": "Vegan Options",
+      "takeaway": "Takeaway",
+      "lunch": "Daily Lunch"
+    }
+  },
+  "galleryPage": {
+    "title": "Gallery",
+    "subtitle": "Rooftop, food, cocktails, and events",
+    "categories": {
+      "all": "All",
+      "rooftop": "Rooftop",
+      "food": "Food",
+      "cocktails": "Cocktails",
+      "events": "Events"
+    }
+  },
+  "reservations": {
+    "title": "Reservations",
+    "subtitle": "Secure your spot on the rooftop",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "date": "Date",
+      "time": "Time",
+      "guests": "Number of Guests",
+      "message": "Additional Notes",
+      "submit": "Send Reservation",
+      "success": "Reservation sent! We'll confirm shortly.",
+      "error": "Failed to send. Please try again or call us."
+    },
+    "contactTitle": "Or contact us directly",
+    "callUs": "Call Now"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Visit us in Palanga",
+    "hoursTitle": "Opening Hours",
+    "findUs": "Find Us",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Message sent!",
+      "error": "Failed to send message."
+    }
+  },
+  "cookie": {
+    "message": "We use cookies to improve your experience. By continuing, you agree to our cookie policy.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "learnMore": "Learn more"
+  },
+  "cta": {
+    "bookTable": "Book a Table",
+    "orderTakeaway": "Order Takeaway",
+    "seeMenu": "See Menu",
+    "orderBolt": "Order on Bolt"
+  },
+  "common": {
+    "from": "from",
+    "perPerson": "per person",
+    "loading": "Loading..."
+  }
+}

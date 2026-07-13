@@ -1,0 +1,185 @@
+{
+  "nav": {
+    "home": "Pradžia",
+    "menu": "Meniu",
+    "about": "Apie mus",
+    "gallery": "Galerija",
+    "reservations": "Rezervacijos",
+    "contact": "Kontaktai",
+    "bookTable": "Rezervuoti stalą",
+    "orderWolt": "Užsisakyti per Wolt"
+  },
+  "hero": {
+    "tagline": "Bariukas",
+    "veganFriendly": "Vegetarian / vegan friendly 🌱",
+    "petFriendly": "Draugiški gyvūnams 🐶",
+    "bookTable": "Rezervuoti stalą",
+    "orderWolt": "Užsisakyti per Wolt",
+    "seeMenu": "Žiūrėti meniu",
+    "scroll": "Slinkite žemyn"
+  },
+  "quickInfo": {
+    "hours": "Darbo laikas",
+    "address": "Adresas",
+    "phone": "Telefonas",
+    "getDirections": "Gauti kryptis"
+  },
+  "status": {
+    "openNow": "Dabar atidaryta",
+    "opensAt": "Atidaroma {time}",
+    "closed": "Uždaryta",
+    "opensOn": "Atidaroma {day} {time}",
+    "popularTimes": "Populiariausi laikai",
+    "reportedBy": "Pranešė {count}+ žmonių Google",
+    "popularMentions": "Dažniausiai minima",
+    "viewAllGoogle": "Visi atsiliepimai Google Maps"
+  },
+  "days": {
+    "monday": "Pirmadienį",
+    "tuesday": "Antradienį",
+    "wednesday": "Trečiadienį",
+    "thursday": "Ketvirtadienį",
+    "friday": "Penktadienį",
+    "saturday": "Šeštadienį",
+    "sunday": "Sekmadienį"
+  },
+  "cocktails": {
+    "title": "Meniu akcentai",
+    "subtitle": "Google Maps ir svečių mėgstamiausi patiekalai",
+    "viewAll": "Visas meniu"
+  },
+  "specials": {
+    "title": "Naujienos",
+    "subtitle": "Naujausi pasiūlymai iš Wolt meniu",
+    "badge": "Naujiena"
+  },
+  "gallery": {
+    "title": "Stogo terasa ir atmosfera",
+    "subtitle": "Saulėlydis, kokteiliai ir geros vibracijos",
+    "viewAll": "Visa galerija"
+  },
+  "testimonials": {
+    "title": "Ką sako svečiai",
+    "subtitle": "Palangos mėgstamiausia stogo terasa"
+  },
+  "instagram": {
+    "title": "Sekite mus Instagram",
+    "subtitle": "@kefyrousai",
+    "follow": "Sekti"
+  },
+  "newsletter": {
+    "title": "Vasaros renginiai",
+    "subtitle": "Gaukite naujienas apie DJ vakarus, degustacijas ir specialius pasiūlymus",
+    "placeholder": "Jūsų el. paštas",
+    "submit": "Prenumeruoti",
+    "success": "Ačiū! Netrukus susisieksime.",
+    "error": "Įvyko klaida. Bandykite dar kartą."
+  },
+  "footer": {
+    "description": "Maistas ir gėrimai, išsinešimui, dienos pietūs. Stogo terasa, lauko sėdimos vietos, puikūs kokteiliai.",
+    "quickLinks": "Nuorodos",
+    "contact": "Kontaktai",
+    "order": "Užsakyti",
+    "rights": "Visos teisės saugomos.",
+    "privacy": "Privatumo politika"
+  },
+  "menu": {
+    "title": "Meniu",
+    "subtitle": "Maistas ir gėrimai, išsinešimui, dienos pietūs",
+    "downloadPdf": "Atsisiųsti PDF meniu",
+    "tabs": {
+      "food": "Maistas",
+      "cocktails": "Kokteiliai",
+      "wineBeer": "Vynas ir alus",
+      "nonAlcoholic": "Bealkoholiniai",
+      "takeaway": "Išsinešimui"
+    },
+    "vegan": "Vegan",
+    "new": "Naujiena",
+    "allergens": "Alergenai",
+    "bookCta": "Rezervuoti stalą",
+    "woltSource": "Meniu pateiktas per Wolt",
+    "orderWolt": "Užsisakyti per Wolt",
+    "combos": "Kompleksai"
+  },
+  "about": {
+    "title": "Apie Kefyro ūsai",
+    "subtitle": "Palangos stogo terasa, kur susitinka jūra ir kokteiliai",
+    "storyTitle": "Mūsų istorija",
+    "story1": "Kefyro ūsai — tai stilinga stogo terasa ir kavinė pačioje Palangos širdyje. Čia galite mėgautis rankų darbo kokteiliais, šviežiu maistu ir nepakartojamu saulėlydžio vaizdu prie Baltijos jūros.",
+    "story2": "Mūsų komanda kuria gyvą, vasarišką atmosferą — nuo ramių vakarienių iki energingų penktadienio vakarų. Turime veganiškų patiekalų, dienos pietų ir galimybę užsisakyti išsinešimui per Wolt ir Bolt.",
+    "rooftopTitle": "Stogo terasa",
+    "rooftopDesc": "Atvira terasa su jūros vaizdu — ideali vieta vasaros vakarams, draugų susitikimams ir romantiškoms progoms.",
+    "teamTitle": "Komandos vibe",
+    "teamDesc": "Draugiška, kūrybinga komanda, kuri myli kokteilius, gerą maistą ir puikią nuotaiką.",
+    "features": {
+      "rooftop": "Stogo terasa",
+      "outdoor": "Lauko sėdimos vietos",
+      "cocktails": "Puikūs kokteiliai",
+      "vegan": "Vegan opcijos",
+      "takeaway": "Išsinešimui",
+      "lunch": "Dienos pietūs"
+    }
+  },
+  "galleryPage": {
+    "title": "Galerija",
+    "subtitle": "Stogo terasa, maistas, kokteiliai ir renginiai",
+    "categories": {
+      "all": "Visi",
+      "rooftop": "Terasa",
+      "food": "Maistas",
+      "cocktails": "Kokteiliai",
+      "events": "Renginiai"
+    }
+  },
+  "reservations": {
+    "title": "Rezervacijos",
+    "subtitle": "Užsitikrinkite stalą stogo terasoje",
+    "form": {
+      "name": "Vardas",
+      "email": "El. paštas",
+      "phone": "Telefonas",
+      "date": "Data",
+      "time": "Laikas",
+      "guests": "Svečių skaičius",
+      "message": "Papildoma informacija",
+      "submit": "Siųsti rezervaciją",
+      "success": "Rezervacija išsiųsta! Netrukus patvirtinsime.",
+      "error": "Nepavyko išsiųsti. Bandykite dar kartą arba skambinkite."
+    },
+    "contactTitle": "Arba susisiekite tiesiogiai",
+    "callUs": "Skambinti dabar"
+  },
+  "contact": {
+    "title": "Kontaktai",
+    "subtitle": "Aplankykite mus Palangoje",
+    "hoursTitle": "Darbo laikas",
+    "findUs": "Rasti mus",
+    "form": {
+      "name": "Vardas",
+      "email": "El. paštas",
+      "subject": "Tema",
+      "message": "Žinutė",
+      "submit": "Siųsti žinutę",
+      "success": "Žinutė išsiųsta!",
+      "error": "Nepavyko išsiųsti žinutės."
+    }
+  },
+  "cookie": {
+    "message": "Naudojame slapukus, kad pagerintume jūsų patirtį. Tęsdami sutinkate su mūsų slapukų politika.",
+    "accept": "Sutinku",
+    "decline": "Atmesti",
+    "learnMore": "Sužinoti daugiau"
+  },
+  "cta": {
+    "bookTable": "Rezervuoti stalą",
+    "orderTakeaway": "Užsisakyti išsinešimui",
+    "seeMenu": "Žiūrėti meniu",
+    "orderBolt": "Užsisakyti per Bolt"
+  },
+  "common": {
+    "from": "nuo",
+    "perPerson": "už asmenį",
+    "loading": "Kraunama..."
+  }
+}

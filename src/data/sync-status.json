@@ -1,0 +1,36 @@
+{
+  "syncedAt": "2026-07-13T18:06:32.244Z",
+  "sources": {
+    "menu": "https://semeny.no/lt/sted/kefyrousai",
+    "reviews": "https://de.restaurantguru.com/Kefyro-usai-Palanga"
+  },
+  "menuCount": 57,
+  "googleRating": null,
+  "menuPreview": [
+    {
+      "name": "Ispaniškos Chiurros pariekiamos su cinamoniniu cukrumi ir šokoladinio kondensuoto pieno pa...",
+      "price": 7,
+      "category": "🍽️ Desertai"
+    },
+    {
+      "name": "Kepti varškėtukai  patiekiami su grietine ir uogiene arba su karamele.",
+      "price": 8,
+      "category": "🍽️ Pagrindiniai patiekalai"
+    },
+    {
+      "name": "Tortilija su vištienos KEBABO mėsa",
+      "price": 9,
+      "category": "🍽️ Pagrindiniai patiekalai"
+    },
+    {
+      "name": "Libanietiško stiliaus falafelių lėkštė su bulvytėmis, “Coleslaw” ir tabulės...",
+      "price": 16,
+      "category": "🍽️ Pagrindiniai patiekalai"
+    },
+    {
+      "name": "Libanietiško stiliaus vištienos Doner kebabas lėkštėje su bulvytėmis, “Cole...",
+      "price": 16,
+      "category": "🍽️ Pagrindiniai patiekalai"
+    }
+  ]
+}

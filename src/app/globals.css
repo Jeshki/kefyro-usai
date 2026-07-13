@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+/*
+ * Kefyro ūsai brand palette — from official logo
+ * Beige #F5E9CC | Orange #F19421 | Plum #4D3B4D
+ */
+:root {
+  --background: #f5e9cc;
+  --foreground: #1a1218;
+  --card: #fffaf0;
+  --card-foreground: #1a1218;
+  --muted: #ede0c8;
+  --muted-foreground: #5c4a52;
+  --border: #e0d0b8;
+  /* Logo colors */
+  --beige: #f5e9cc;
+  --beige-light: #fff8ee;
+  --orange: #f19421;
+  --orange-light: #f5a83d;
+  --orange-dark: #d97d0f;
+  --plum: #4d3b4d;
+  --plum-light: #6b5568;
+  --plum-dark: #3a2e38;
+  --ink: #1a1218;
+  /* Semantic aliases (used across components) */
+  --sand: var(--beige);
+  --coral: var(--orange);
+  --coral-light: var(--orange-light);
+  --teal: var(--plum);
+  --teal-light: var(--plum-light);
+  --teal-dark: var(--plum-dark);
+  --gold: var(--orange);
+  --gold-light: var(--orange-light);
+}
+
+.dark {
+  --background: #3a2e38;
+  --foreground: #f5e9cc;
+  --card: #4d3b4d;
+  --card-foreground: #f5e9cc;
+  --muted: #5c4a58;
+  --muted-foreground: #d4c4b0;
+  --border: #6b5568;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-beige: var(--beige);
+  --color-beige-light: var(--beige-light);
+  --color-orange: var(--orange);
+  --color-orange-light: var(--orange-light);
+  --color-orange-dark: var(--orange-dark);
+  --color-plum: var(--plum);
+  --color-plum-light: var(--plum-light);
+  --color-plum-dark: var(--plum-dark);
+  --color-ink: var(--ink);
+  --color-sand: var(--sand);
+  --color-coral: var(--coral);
+  --color-coral-light: var(--coral-light);
+  --color-teal: var(--teal);
+  --color-teal-light: var(--teal-light);
+  --color-teal-dark: var(--teal-dark);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-outfit);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--orange);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--plum);
+  border-radius: 4px;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
