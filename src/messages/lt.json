@@ -10,9 +10,7 @@
     "orderWolt": "Užsisakyti per Wolt"
   },
   "hero": {
-    "tagline": "Bariukas",
-    "veganFriendly": "Vegetarian / vegan friendly 🌱",
-    "petFriendly": "Draugiški gyvūnams 🐶",
+    "tagline": "Vegetarian / vegan friendly 🌱 · Draugiški gyvūnams 🐶",
     "bookTable": "Rezervuoti stalą",
     "orderWolt": "Užsisakyti per Wolt",
     "seeMenu": "Žiūrėti meniu",
@@ -54,13 +52,13 @@
     "badge": "Naujiena"
   },
   "gallery": {
-    "title": "Stogo terasa ir atmosfera",
-    "subtitle": "Saulėlydis, kokteiliai ir geros vibracijos",
+    "title": "Vegetarian / vegan friendly 🌱 · Draugiški gyvūnams 🐶",
+    "subtitle": "Jauki bariukas Palangoje — maistas, gėrimai ir gera nuotaika",
     "viewAll": "Visa galerija"
   },
   "testimonials": {
     "title": "Ką sako svečiai",
-    "subtitle": "Palangos mėgstamiausia stogo terasa"
+    "subtitle": "Palangos mėgstamiausias bariukas"
   },
   "instagram": {
     "title": "Sekite mus Instagram",
@@ -76,7 +74,7 @@
     "error": "Įvyko klaida. Bandykite dar kartą."
   },
   "footer": {
-    "description": "Maistas ir gėrimai, išsinešimui, dienos pietūs. Stogo terasa, lauko sėdimos vietos, puikūs kokteiliai.",
+    "description": "Maistas ir gėrimai, išsinešimui, dienos pietūs. Vegetarian / vegan friendly 🌱 Draugiški gyvūnams 🐶",
     "quickLinks": "Nuorodos",
     "contact": "Kontaktai",
     "order": "Užsakyti",
@@ -104,18 +102,18 @@
   },
   "about": {
     "title": "Apie Kefyro ūsai",
-    "subtitle": "Palangos stogo terasa, kur susitinka jūra ir kokteiliai",
+    "subtitle": "Bariukas Palangoje — maistas, gėrimai ir jauki atmosfera",
     "storyTitle": "Mūsų istorija",
-    "story1": "Kefyro ūsai — tai stilinga stogo terasa ir kavinė pačioje Palangos širdyje. Čia galite mėgautis rankų darbo kokteiliais, šviežiu maistu ir nepakartojamu saulėlydžio vaizdu prie Baltijos jūros.",
-    "story2": "Mūsų komanda kuria gyvą, vasarišką atmosferą — nuo ramių vakarienių iki energingų penktadienio vakarų. Turime veganiškų patiekalų, dienos pietų ir galimybę užsisakyti išsinešimui per Wolt ir Bolt.",
-    "rooftopTitle": "Stogo terasa",
-    "rooftopDesc": "Atvira terasa su jūros vaizdu — ideali vieta vasaros vakarams, draugų susitikimams ir romantiškoms progoms.",
+    "story1": "Kefyro ūsai — jaukus bariukas pačioje Palangos širdyje. Čia galite mėgautis šviežiu maistu, gerais gėrimais ir draugiška atmosfera.",
+    "story2": "Mūsų komanda kuria gyvą, vasarišką nuotaiką — nuo ramių pietų iki energingų vakarų. Turime veganiškų patiekalų, dienos pietų ir galimybę užsisakyti išsinešimui per Wolt ir Bolt.",
+    "rooftopTitle": "Baras ir terasa",
+    "rooftopDesc": "Jaukus baro interjeras ir lauko terasa — ideali vieta vasaros vakarams, draugų susitikimams ir ramiam poilsiui.",
     "teamTitle": "Komandos vibe",
-    "teamDesc": "Draugiška, kūrybinga komanda, kuri myli kokteilius, gerą maistą ir puikią nuotaiką.",
+    "teamDesc": "Draugiška, kūrybinga komanda, kuri myli gerą maistą, gėrimus ir puikią nuotaiką.",
     "features": {
-      "rooftop": "Stogo terasa",
-      "outdoor": "Lauko sėdimos vietos",
-      "cocktails": "Puikūs kokteiliai",
+      "rooftop": "Jaukus baras",
+      "outdoor": "Lauko terasa",
+      "cocktails": "Gėrimai ir alus",
       "vegan": "Vegan opcijos",
       "takeaway": "Išsinešimui",
       "lunch": "Dienos pietūs"
@@ -123,18 +121,17 @@
   },
   "galleryPage": {
     "title": "Galerija",
-    "subtitle": "Stogo terasa, maistas, kokteiliai ir renginiai",
+    "subtitle": "Baras, maistas ir gėrimai",
     "categories": {
       "all": "Visi",
-      "rooftop": "Terasa",
+      "bar": "Baras",
       "food": "Maistas",
-      "cocktails": "Kokteiliai",
-      "events": "Renginiai"
+      "drinks": "Gėrimai"
     }
   },
   "reservations": {
     "title": "Rezervacijos",
-    "subtitle": "Užsitikrinkite stalą stogo terasoje",
+    "subtitle": "Užsitikrinkite stalą pas mus",
     "form": {
       "name": "Vardas",
       "email": "El. paštas",

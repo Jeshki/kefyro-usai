@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { SectionHeader } from "@/components/shared/section-header";
 import { FadeIn } from "@/components/shared/fade-in";
 import { CtaButtons } from "@/components/shared/cta-buttons";
+import { PHOTOS } from "@/lib/media";
 
 const FEATURES = [
   { key: "rooftop" as const, icon: Sun },
@@ -35,8 +36,8 @@ export function AboutContent() {
           <FadeIn>
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1200&q=80"
-                alt="Kefyro ūsai rooftop"
+                src={PHOTOS.baras}
+                alt="Kefyro ūsai bariukas"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -75,8 +76,8 @@ export function AboutContent() {
           <FadeIn className="order-1 lg:order-2">
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=80"
-                alt="Sea view from rooftop"
+                src={PHOTOS.baras5}
+                alt="Kefyro ūsai baras ir terasa"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"

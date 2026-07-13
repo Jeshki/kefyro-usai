@@ -73,24 +73,10 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            className="mt-6 font-display text-3xl font-bold text-orange drop-shadow-md sm:text-4xl"
+            className="mx-auto mt-6 max-w-2xl font-display text-2xl font-bold leading-snug text-beige drop-shadow-md sm:text-3xl"
           >
             {t("tagline")}
           </motion.p>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.6 }}
-            className="mx-auto mt-5 flex flex-wrap items-center justify-center gap-3"
-          >
-            <span className="rounded-full border border-beige/30 bg-beige/15 px-4 py-2 text-sm font-medium text-beige backdrop-blur-sm sm:text-base">
-              {t("veganFriendly")}
-            </span>
-            <span className="rounded-full border border-beige/30 bg-beige/15 px-4 py-2 text-sm font-medium text-beige backdrop-blur-sm sm:text-base">
-              {t("petFriendly")}
-            </span>
-          </motion.div>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}

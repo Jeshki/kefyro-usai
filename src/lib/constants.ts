@@ -15,8 +15,8 @@ export const BRAND = {
 export const SITE = {
   name: "Kefyro ūsai",
   tagline: {
-    lt: "Bariukas · Vegetarian / vegan friendly 🌱 · Draugiški gyvūnams 🐶",
-    en: "Bariukas · Vegetarian / vegan friendly 🌱 · Pet friendly 🐶",
+    lt: "Vegetarian / vegan friendly 🌱 · Draugiški gyvūnams 🐶",
+    en: "Vegetarian / vegan friendly 🌱 · Pet friendly 🐶",
   },
   address: "J. Janonio g. 1, Palanga, 00136",
   phone: "+37064703730",

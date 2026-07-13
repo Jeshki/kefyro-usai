@@ -10,7 +10,7 @@ import { SectionHeader } from "@/components/shared/section-header";
 import { FadeIn } from "@/components/shared/fade-in";
 import { cn } from "@/lib/utils";
 
-const CATEGORIES = ["all", "rooftop", "food", "cocktails", "events"] as const;
+const CATEGORIES = ["all", "bar", "food", "drinks"] as const;
 
 export function GalleryContent() {
   const t = useTranslations("galleryPage");

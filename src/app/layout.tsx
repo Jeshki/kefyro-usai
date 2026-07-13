@@ -19,18 +19,19 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   metadataBase: new URL("https://kefyrousai.lt"),
   title: {
-    default: "Kefyro ūsai — Rooftop Bar & Café | Palanga",
+    default: "Kefyro ūsai — Bariukas Palanga",
     template: "%s | Kefyro ūsai",
   },
   description:
-    "Bariukas Palangoje. Vegetarian / vegan friendly 🌱 Draugiški gyvūnams 🐶 Maistas ir gėrimai, dienos pietūs. J. Janonio g. 1.",
+    "Vegetarian / vegan friendly 🌱 Draugiški gyvūnams 🐶 Bariukas Palangoje. Maistas ir gėrimai, dienos pietūs. J. Janonio g. 1.",
   keywords: [
     "Kefyro ūsai",
     "bar Palanga",
-    "rooftop Palanga",
+    "bariukas Palanga",
+    "vegan Palanga",
     "kokteiliai Palanga",
     "dienos pietūs Palanga",
-    "stogo terasa",
+    "bariukas",
     "kavinė Palanga",
   ],
   authors: [{ name: "Kefyro ūsai" }],
@@ -45,7 +46,7 @@ export const metadata: Metadata = {
     siteName: "Kefyro ūsai",
     title: "Kefyro ūsai — Bariukas Palangoje",
     description:
-      "Bariukas Palangoje. Vegetarian / vegan friendly. Draugiški gyvūnams. Maistas ir gėrimai, dienos pietūs. J. Janonio g. 1.",
+      "Vegetarian / vegan friendly 🌱 Draugiški gyvūnams 🐶 Maistas ir gėrimai, dienos pietūs. J. Janonio g. 1.",
     images: [
       {
         url: "/cover.jpg",
@@ -63,8 +64,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kefyro ūsai — Rooftop Bar Palanga",
-    description: "Rooftop cocktails & good vibes in Palanga, Lithuania",
+    title: "Kefyro ūsai — Bariukas Palanga",
+    description: "Vegetarian / vegan friendly 🌱 Pet friendly 🐶 Bar in Palanga, Lithuania",
     images: ["/cover.jpg"],
   },
   robots: { index: true, follow: true },

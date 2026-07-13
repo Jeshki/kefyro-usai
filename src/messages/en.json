@@ -10,9 +10,7 @@
     "orderWolt": "Order on Wolt"
   },
   "hero": {
-    "tagline": "Bariukas",
-    "veganFriendly": "Vegetarian / vegan friendly 🌱",
-    "petFriendly": "Pet friendly 🐶",
+    "tagline": "Vegetarian / vegan friendly 🌱 · Pet friendly 🐶",
     "bookTable": "Book a Table",
     "orderWolt": "Order on Wolt",
     "seeMenu": "See Menu",
@@ -54,13 +52,13 @@
     "badge": "New"
   },
   "gallery": {
-    "title": "Rooftop & Atmosphere",
-    "subtitle": "Sunsets, cocktails, and good vibes",
-    "viewAll": "Full Gallery"
+    "title": "Vegetarian / vegan friendly 🌱 · Pet friendly 🐶",
+    "subtitle": "A cozy bar in Palanga — food, drinks and good vibes",
+    "viewAll": "Full gallery"
   },
   "testimonials": {
     "title": "What Guests Say",
-    "subtitle": "Palanga's favorite rooftop bar"
+    "subtitle": "Palanga's favorite bar"
   },
   "instagram": {
     "title": "Follow Us on Instagram",
@@ -76,7 +74,7 @@
     "error": "Something went wrong. Please try again."
   },
   "footer": {
-    "description": "Food and drinks, takeaway, daily lunch specials. Rooftop, outdoor seating, great cocktails.",
+    "description": "Food and drinks, takeaway, daily lunch. Vegetarian / vegan friendly 🌱 Pet friendly 🐶",
     "quickLinks": "Quick Links",
     "contact": "Contact",
     "order": "Order",
@@ -104,18 +102,18 @@
   },
   "about": {
     "title": "About Kefyro ūsai",
-    "subtitle": "Palanga's rooftop where the sea meets cocktails",
+    "subtitle": "A bar in Palanga — food, drinks and cozy atmosphere",
     "storyTitle": "Our Story",
-    "story1": "Kefyro ūsai is a stylish rooftop bar & café in the heart of Palanga. Enjoy handcrafted cocktails, fresh food, and unbeatable Baltic sunset views.",
-    "story2": "Our team creates a lively, summery atmosphere — from relaxed dinners to energetic Friday nights. We offer vegan options, daily lunch specials, and takeaway via Wolt and Bolt.",
-    "rooftopTitle": "The Rooftop",
-    "rooftopDesc": "Open-air terrace with sea views — perfect for summer evenings, friends' gatherings, and romantic occasions.",
+    "story1": "Kefyro ūsai is a cozy bar in the heart of Palanga. Enjoy fresh food, great drinks and a friendly atmosphere.",
+    "story2": "Our team creates a lively, summery vibe — from relaxed lunches to energetic evenings. We offer vegan options, daily specials, and takeaway via Wolt and Bolt.",
+    "rooftopTitle": "Bar & terrace",
+    "rooftopDesc": "A cozy bar interior and outdoor terrace — perfect for summer evenings, friends' gatherings and a relaxed time out.",
     "teamTitle": "Team Vibe",
-    "teamDesc": "A friendly, creative crew who love cocktails, great food, and good vibes.",
+    "teamDesc": "A friendly, creative crew who love great food, drinks and good vibes.",
     "features": {
-      "rooftop": "Rooftop",
-      "outdoor": "Outdoor Seating",
-      "cocktails": "Great Cocktails",
+      "rooftop": "Cozy bar",
+      "outdoor": "Outdoor terrace",
+      "cocktails": "Drinks & beer",
       "vegan": "Vegan Options",
       "takeaway": "Takeaway",
       "lunch": "Daily Lunch"
@@ -123,18 +121,17 @@
   },
   "galleryPage": {
     "title": "Gallery",
-    "subtitle": "Rooftop, food, cocktails, and events",
+    "subtitle": "Bar, food and drinks",
     "categories": {
       "all": "All",
-      "rooftop": "Rooftop",
+      "bar": "Bar",
       "food": "Food",
-      "cocktails": "Cocktails",
-      "events": "Events"
+      "drinks": "Drinks"
     }
   },
   "reservations": {
     "title": "Reservations",
-    "subtitle": "Secure your spot on the rooftop",
+    "subtitle": "Secure your table with us",
     "form": {
       "name": "Name",
       "email": "Email",

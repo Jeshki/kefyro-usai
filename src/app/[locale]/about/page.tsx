@@ -10,8 +10,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: locale === "lt" ? "Apie mus" : "About Us",
     description:
       locale === "lt"
-        ? "Kefyro ūsai istorija — stogo terasa Palangoje su jūros vaizdu"
-        : "The story of Kefyro ūsai — Palanga's rooftop bar with sea views",
+        ? "Kefyro ūsai — bariukas Palangoje, vegan friendly ir pet friendly"
+        : "Kefyro ūsai — cozy bar in Palanga, vegan friendly and pet friendly",
   };
 }
 

@@ -1,4 +1,4 @@
-import { SITE, HOURS } from "@/lib/constants";
+import { SITE, HOURS, BRAND } from "@/lib/constants";
 
 export function JsonLd() {
   const schema = {
@@ -6,8 +6,8 @@ export function JsonLd() {
     "@type": "Restaurant",
     name: SITE.name,
     description:
-      "Stilinga stogo terasa ir kavinė Palangoje. Kokteiliai, dienos pietūs, veganiški patiekalai.",
-    image: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1200&q=80",
+      "Bariukas Palangoje. Vegetarian / vegan friendly. Draugiški gyvūnams. Maistas ir gėrimai.",
+    image: `https://kefyrousai.lt${BRAND.cover}`,
     address: {
       "@type": "PostalAddress",
       streetAddress: "J. Janonio g. 1",
