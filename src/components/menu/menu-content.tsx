@@ -106,38 +106,7 @@ export function MenuContent() {
           </p>
         </FadeIn>
 
-        {/* Original menu images */}
         <FadeIn delay={0.08}>
-          <div className="mb-12 grid gap-6 lg:grid-cols-2">
-            <figure className="overflow-hidden rounded-2xl border border-border/50 bg-card shadow-sm">
-              <Image
-                src={MENU_PAGES.food}
-                alt={t("originalFood")}
-                width={1200}
-                height={1600}
-                className="h-auto w-full"
-                priority
-              />
-              <figcaption className="border-t border-border/50 px-4 py-3 text-center text-sm font-medium">
-                {t("originalFood")}
-              </figcaption>
-            </figure>
-            <figure className="overflow-hidden rounded-2xl border border-border/50 bg-card shadow-sm">
-              <Image
-                src={MENU_PAGES.drinks}
-                alt={t("originalDrinks")}
-                width={1200}
-                height={1600}
-                className="h-auto w-full"
-              />
-              <figcaption className="border-t border-border/50 px-4 py-3 text-center text-sm font-medium">
-                {t("originalDrinks")}
-              </figcaption>
-            </figure>
-          </div>
-        </FadeIn>
-
-        <FadeIn delay={0.1}>
           <div className="mb-10 flex flex-wrap items-center justify-center gap-3">
             <Button asChild variant="outline" size="sm">
               <a href={MENU_PAGES.food} download="kefyro-usai-maistas.jpg">
