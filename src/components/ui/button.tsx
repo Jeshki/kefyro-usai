@@ -16,6 +16,8 @@ const buttonVariants = cva(
           "border-2 border-white/30 bg-white/10 text-white backdrop-blur-sm hover:bg-white/20 hover:border-white/50",
         ghost: "hover:bg-white/10 text-foreground",
         gold: "bg-orange text-ink shadow-lg shadow-orange/25 hover:bg-orange-light hover:-translate-y-0.5",
+        brown:
+          "border-2 border-brown bg-brown text-beige shadow-md shadow-brown/20 hover:border-brown-dark hover:bg-brown-dark hover:text-beige",
         link: "text-coral underline-offset-4 hover:underline",
       },
         size: {

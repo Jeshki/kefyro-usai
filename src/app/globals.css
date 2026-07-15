@@ -31,6 +31,11 @@
   --teal-dark: var(--plum-dark);
   --gold: var(--orange);
   --gold-light: var(--orange-light);
+  /* Menu brown — matches printed meniu typography */
+  --brown: #5d4037;
+  --brown-light: #8d6e63;
+  --brown-dark: #3e2723;
+  --menu-bg: #fff8ee;
 }
 
 .dark {
@@ -68,6 +73,10 @@
   --color-teal-dark: var(--teal-dark);
   --color-gold: var(--gold);
   --color-gold-light: var(--gold-light);
+  --color-brown: var(--brown);
+  --color-brown-light: var(--brown-light);
+  --color-brown-dark: var(--brown-dark);
+  --color-menu-bg: var(--menu-bg);
   --font-sans: var(--font-inter);
   --font-display: var(--font-outfit);
 }
