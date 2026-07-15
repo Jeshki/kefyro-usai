@@ -10,20 +10,20 @@ import { Button } from "@/components/ui/button";
 import {
   MENU_ITEMS,
   FOOD_SECTIONS,
-  WOLT_MENU_SOURCE,
+  DRINK_SECTIONS,
+  MENU_PAGES,
   type MenuItem,
 } from "@/lib/menu-data";
 import { SITE } from "@/lib/constants";
 import { SectionHeader } from "@/components/shared/section-header";
 import { FadeIn } from "@/components/shared/fade-in";
 
-const TAB_KEYS = [
-  "food",
-  "cocktails",
-  "wineBeer",
-  "nonAlcoholic",
-  "takeaway",
-] as const;
+const TAB_KEYS = ["food", "cocktails", "wineBeer", "nonAlcoholic"] as const;
+
+function formatPrice(item: MenuItem, locale: "lt" | "en") {
+  if (item.displayPrice) return item.displayPrice[locale];
+  return `€${item.price.toFixed(2)}`;
+}
 
 function MenuCard({ item, locale }: { item: MenuItem; locale: "lt" | "en" }) {
   const t = useTranslations("menu");
@@ -45,14 +45,13 @@ function MenuCard({ item, locale }: { item: MenuItem; locale: "lt" | "en" }) {
             {item.name[locale]}
           </h3>
           <span className="shrink-0 text-lg font-bold text-coral">
-            €{item.price.toFixed(2)}
+            {formatPrice(item, locale)}
           </span>
         </div>
-        <p className="mt-1 text-sm text-muted-foreground line-clamp-2">
+        <p className="mt-1 text-sm text-muted-foreground line-clamp-3">
           {item.description[locale]}
         </p>
         <div className="mt-auto flex flex-wrap gap-1.5 pt-2">
-          {item.isNew && <Badge variant="coral">{t("new")}</Badge>}
           {item.vegan && <Badge variant="vegan">{t("vegan")}</Badge>}
           {item.allergens?.map((a) => (
             <Badge key={a} variant="outline" className="text-xs">
@@ -62,6 +61,31 @@ function MenuCard({ item, locale }: { item: MenuItem; locale: "lt" | "en" }) {
         </div>
       </div>
     </article>
+  );
+}
+
+function SectionBlock({
+  title,
+  items,
+  locale,
+}: {
+  title: string;
+  items: MenuItem[];
+  locale: "lt" | "en";
+}) {
+  if (items.length === 0) return null;
+
+  return (
+    <div>
+      <h2 className="mb-4 font-display text-xl font-semibold">{title}</h2>
+      <div className="grid gap-4 sm:grid-cols-2">
+        {items.map((item, i) => (
+          <FadeIn key={item.id} delay={i * 0.04}>
+            <MenuCard item={item} locale={locale} />
+          </FadeIn>
+        ))}
+      </div>
+    </div>
   );
 }
 
@@ -77,20 +101,60 @@ export function MenuContent() {
         </FadeIn>
 
         <FadeIn delay={0.05}>
-          <div className="mb-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <p className="text-sm text-muted-foreground">
-              {WOLT_MENU_SOURCE.label[locale]}
-            </p>
+          <p className="mb-6 text-center text-sm font-medium text-orange">
+            {MENU_PAGES.note[locale]}
+          </p>
+        </FadeIn>
+
+        {/* Original menu images */}
+        <FadeIn delay={0.08}>
+          <div className="mb-12 grid gap-6 lg:grid-cols-2">
+            <figure className="overflow-hidden rounded-2xl border border-border/50 bg-card shadow-sm">
+              <Image
+                src={MENU_PAGES.food}
+                alt={t("originalFood")}
+                width={1200}
+                height={1600}
+                className="h-auto w-full"
+                priority
+              />
+              <figcaption className="border-t border-border/50 px-4 py-3 text-center text-sm font-medium">
+                {t("originalFood")}
+              </figcaption>
+            </figure>
+            <figure className="overflow-hidden rounded-2xl border border-border/50 bg-card shadow-sm">
+              <Image
+                src={MENU_PAGES.drinks}
+                alt={t("originalDrinks")}
+                width={1200}
+                height={1600}
+                className="h-auto w-full"
+              />
+              <figcaption className="border-t border-border/50 px-4 py-3 text-center text-sm font-medium">
+                {t("originalDrinks")}
+              </figcaption>
+            </figure>
+          </div>
+        </FadeIn>
+
+        <FadeIn delay={0.1}>
+          <div className="mb-10 flex flex-wrap items-center justify-center gap-3">
+            <Button asChild variant="outline" size="sm">
+              <a href={MENU_PAGES.food} download="kefyro-usai-maistas.jpg">
+                <Download className="h-4 w-4" />
+                {t("downloadFood")}
+              </a>
+            </Button>
+            <Button asChild variant="outline" size="sm">
+              <a href={MENU_PAGES.drinks} download="kefyro-usai-gerimai.jpg">
+                <Download className="h-4 w-4" />
+                {t("downloadDrinks")}
+              </a>
+            </Button>
             <Button asChild variant="outline" size="sm">
               <a href={SITE.order.wolt} target="_blank" rel="noopener noreferrer">
                 <ExternalLink className="h-4 w-4" />
                 {t("orderWolt")}
-              </a>
-            </Button>
-            <Button asChild variant="outline" size="sm">
-              <a href="/menu.pdf" download>
-                <Download className="h-4 w-4" />
-                {t("downloadPdf")}
               </a>
             </Button>
           </div>
@@ -100,54 +164,38 @@ export function MenuContent() {
           <TabsList className="w-full justify-start overflow-x-auto">
             {TAB_KEYS.map((key) => (
               <TabsTrigger key={key} value={key}>
-                {key === "takeaway" ? t("combos") : t(`tabs.${key}`)}
+                {t(`tabs.${key}`)}
               </TabsTrigger>
             ))}
           </TabsList>
 
-          {TAB_KEYS.map((key) => {
-            const items = MENU_ITEMS.filter((item) => item.category === key);
+          <TabsContent value="food" className="space-y-10 pt-6">
+            {FOOD_SECTIONS.map((section) => (
+              <SectionBlock
+                key={section.key}
+                title={section.label[locale]}
+                items={MENU_ITEMS.filter(
+                  (item) => item.category === "food" && item.section === section.key
+                )}
+                locale={locale}
+              />
+            ))}
+          </TabsContent>
 
-            if (key === "food") {
-              return (
-                <TabsContent key={key} value={key} className="space-y-10">
-                  {FOOD_SECTIONS.map((section) => {
-                    const sectionItems = items.filter(
-                      (item) => item.section === section.key
-                    );
-                    if (sectionItems.length === 0) return null;
-
-                    return (
-                      <div key={section.key}>
-                        <h2 className="mb-4 font-display text-xl font-semibold">
-                          {section.label[locale]}
-                        </h2>
-                        <div className="grid gap-4 sm:grid-cols-2">
-                          {sectionItems.map((item, i) => (
-                            <FadeIn key={item.id} delay={i * 0.05}>
-                              <MenuCard item={item} locale={locale} />
-                            </FadeIn>
-                          ))}
-                        </div>
-                      </div>
-                    );
-                  })}
-                </TabsContent>
-              );
-            }
-
-            return (
-              <TabsContent key={key} value={key}>
-                <div className="grid gap-4 sm:grid-cols-2">
-                  {items.map((item, i) => (
-                    <FadeIn key={item.id} delay={i * 0.05}>
-                      <MenuCard item={item} locale={locale} />
-                    </FadeIn>
-                  ))}
-                </div>
-              </TabsContent>
-            );
-          })}
+          {(["cocktails", "wineBeer", "nonAlcoholic"] as const).map((tabKey) => (
+            <TabsContent key={tabKey} value={tabKey} className="space-y-10 pt-6">
+              {DRINK_SECTIONS.filter((s) => s.category === tabKey).map((section) => (
+                <SectionBlock
+                  key={section.key}
+                  title={section.label[locale]}
+                  items={MENU_ITEMS.filter(
+                    (item) => item.category === tabKey && item.section === section.key
+                  )}
+                  locale={locale}
+                />
+              ))}
+            </TabsContent>
+          ))}
         </Tabs>
 
         <div className="mt-16 text-center">

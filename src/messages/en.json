@@ -47,9 +47,9 @@
     "viewAll": "Full menu"
   },
   "specials": {
-    "title": "New on the menu",
-    "subtitle": "Latest offers from the Wolt menu",
-    "badge": "New"
+    "title": "We recommend",
+    "subtitle": "Popular dishes from our menu",
+    "badge": "Top"
   },
   "gallery": {
     "title": "Vegetarian / vegan friendly 🌱 · Pet friendly 🐶",
@@ -83,22 +83,21 @@
   },
   "menu": {
     "title": "Menu",
-    "subtitle": "Food and drinks, takeaway, daily lunch specials",
-    "downloadPdf": "Download PDF Menu",
+    "subtitle": "Food and drinks — orders taken at the bar",
+    "originalFood": "Food menu",
+    "originalDrinks": "Drinks menu",
+    "downloadFood": "Download food menu",
+    "downloadDrinks": "Download drinks menu",
     "tabs": {
       "food": "Food",
       "cocktails": "Cocktails",
-      "wineBeer": "Wine & Beer",
-      "nonAlcoholic": "Non-alcoholic",
-      "takeaway": "Takeaway"
+      "wineBeer": "Beer & wine",
+      "nonAlcoholic": "Non-alcoholic"
     },
     "vegan": "Vegan",
-    "new": "New",
     "allergens": "Allergens",
-    "bookCta": "Book a Table",
-    "woltSource": "Menu provided by Wolt",
-    "orderWolt": "Order on Wolt",
-    "combos": "Combos"
+    "bookCta": "Book a table",
+    "orderWolt": "Order on Wolt"
   },
   "about": {
     "title": "About Kefyro ūsai",

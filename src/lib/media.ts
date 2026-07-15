@@ -12,4 +12,6 @@ export const PHOTOS = {
   sparneliai: "/sparneliai.jpg",
   cover: "/cover.jpg",
   logo: "/logo.jpg",
+  meniuFood: "/meniu-1.jpg",
+  meniuDrinks: "/meniu-2.jpg",
 } as const;

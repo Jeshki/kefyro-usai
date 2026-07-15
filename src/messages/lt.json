@@ -47,9 +47,9 @@
     "viewAll": "Visas meniu"
   },
   "specials": {
-    "title": "Naujienos",
-    "subtitle": "Naujausi pasiūlymai iš Wolt meniu",
-    "badge": "Naujiena"
+    "title": "Rekomenduojame",
+    "subtitle": "Populiariausi patiekalai iš mūsų meniu",
+    "badge": "Top"
   },
   "gallery": {
     "title": "Vegetarian / vegan friendly 🌱 · Draugiški gyvūnams 🐶",
@@ -83,22 +83,21 @@
   },
   "menu": {
     "title": "Meniu",
-    "subtitle": "Maistas ir gėrimai, išsinešimui, dienos pietūs",
-    "downloadPdf": "Atsisiųsti PDF meniu",
+    "subtitle": "Maistas ir gėrimai — užsakymai priimami prie baro",
+    "originalFood": "Maisto meniu",
+    "originalDrinks": "Gėrimų meniu",
+    "downloadFood": "Atsisiųsti maisto meniu",
+    "downloadDrinks": "Atsisiųsti gėrimų meniu",
     "tabs": {
       "food": "Maistas",
       "cocktails": "Kokteiliai",
-      "wineBeer": "Vynas ir alus",
-      "nonAlcoholic": "Bealkoholiniai",
-      "takeaway": "Išsinešimui"
+      "wineBeer": "Alus ir vynas",
+      "nonAlcoholic": "Bealkoholiniai"
     },
     "vegan": "Vegan",
-    "new": "Naujiena",
     "allergens": "Alergenai",
     "bookCta": "Rezervuoti stalą",
-    "woltSource": "Meniu pateiktas per Wolt",
-    "orderWolt": "Užsisakyti per Wolt",
-    "combos": "Kompleksai"
+    "orderWolt": "Užsisakyti per Wolt"
   },
   "about": {
     "title": "Apie Kefyro ūsai",

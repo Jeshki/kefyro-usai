@@ -10,8 +10,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: locale === "lt" ? "Meniu" : "Menu",
     description:
       locale === "lt"
-        ? "Maistas ir gėrimai, išsinešimui, dienos pietūs — Kefyro ūsai meniu"
-        : "Food, cocktails, wine & takeaway menu — Kefyro ūsai Palanga",
+        ? "Kefyro ūsai meniu — maistas ir gėrimai. Užsakymai priimami prie baro."
+        : "Kefyro ūsai menu — food and drinks. Orders taken at the bar.",
   };
 }
 

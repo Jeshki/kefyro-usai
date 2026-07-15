@@ -69,7 +69,9 @@ export function CocktailsCarousel() {
                             {cocktail.description[locale]}
                           </p>
                           <p className="mt-3 text-lg font-bold text-gold">
-                            €{cocktail.price.toFixed(2)}
+                            {cocktail.displayPrice
+                              ? cocktail.displayPrice[locale]
+                              : `€${cocktail.price.toFixed(2)}`}
                           </p>
                         </div>
                       </div>
