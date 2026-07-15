@@ -29,8 +29,8 @@ function MenuCard({ item, locale }: { item: MenuItem; locale: "lt" | "en" }) {
   const t = useTranslations("menu");
 
   return (
-    <article className="group flex gap-4 rounded-2xl border border-brown-light/40 bg-brown p-4 text-beige transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 sm:p-5">
-      <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-xl ring-1 ring-beige/20 sm:h-28 sm:w-28">
+    <article className="group flex gap-4 rounded-2xl border border-border/50 bg-card p-4 transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 sm:p-5">
+      <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-xl sm:h-28 sm:w-28">
         <Image
           src={item.image}
           alt={item.name[locale]}
@@ -44,25 +44,17 @@ function MenuCard({ item, locale }: { item: MenuItem; locale: "lt" | "en" }) {
           <h3 className="font-display text-base font-semibold sm:text-lg">
             {item.name[locale]}
           </h3>
-          <span className="shrink-0 text-lg font-bold text-orange">
+          <span className="shrink-0 text-lg font-bold text-coral">
             {formatPrice(item, locale)}
           </span>
         </div>
-        <p className="mt-1 text-sm text-beige/75 line-clamp-3">
+        <p className="mt-1 text-sm text-muted-foreground line-clamp-3">
           {item.description[locale]}
         </p>
         <div className="mt-auto flex flex-wrap gap-1.5 pt-2">
-          {item.vegan && (
-            <Badge variant="vegan" className="bg-emerald-500/20 text-emerald-200">
-              {t("vegan")}
-            </Badge>
-          )}
+          {item.vegan && <Badge variant="vegan">{t("vegan")}</Badge>}
           {item.allergens?.map((a) => (
-            <Badge
-              key={a}
-              variant="outline"
-              className="border-beige/30 text-xs text-beige/90"
-            >
+            <Badge key={a} variant="outline" className="text-xs">
               {a}
             </Badge>
           ))}
@@ -85,7 +77,7 @@ function SectionBlock({
 
   return (
     <div>
-      <h2 className="mb-4 font-display text-xl font-semibold text-brown-dark">{title}</h2>
+      <h2 className="mb-4 font-display text-xl font-semibold">{title}</h2>
       <div className="grid gap-4 sm:grid-cols-2">
         {items.map((item, i) => (
           <FadeIn key={item.id} delay={i * 0.04}>
@@ -102,14 +94,10 @@ export function MenuContent() {
   const locale = useLocale() as "lt" | "en";
 
   return (
-    <div className="bg-menu-bg py-20">
+    <div className="py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <FadeIn>
-          <SectionHeader
-            title={t("title")}
-            subtitle={t("subtitle")}
-            className="[&_h2]:text-brown-dark [&_p]:text-brown-light"
-          />
+          <SectionHeader title={t("title")} subtitle={t("subtitle")} />
         </FadeIn>
 
         <FadeIn delay={0.05}>
@@ -142,13 +130,9 @@ export function MenuContent() {
         </FadeIn>
 
         <Tabs defaultValue="food" className="w-full">
-          <TabsList className="w-full justify-start overflow-x-auto bg-brown/15 text-brown-dark">
+          <TabsList className="w-full justify-start overflow-x-auto">
             {TAB_KEYS.map((key) => (
-              <TabsTrigger
-                key={key}
-                value={key}
-                className="data-[state=active]:bg-brown data-[state=active]:text-beige"
-              >
+              <TabsTrigger key={key} value={key}>
                 {t(`tabs.${key}`)}
               </TabsTrigger>
             ))}

@@ -35,7 +35,6 @@
   --brown: #5d4037;
   --brown-light: #8d6e63;
   --brown-dark: #3e2723;
-  --menu-bg: #fff8ee;
 }
 
 .dark {
@@ -76,7 +75,6 @@
   --color-brown: var(--brown);
   --color-brown-light: var(--brown-light);
   --color-brown-dark: var(--brown-dark);
-  --color-menu-bg: var(--menu-bg);
   --font-sans: var(--font-inter);
   --font-display: var(--font-outfit);
 }
